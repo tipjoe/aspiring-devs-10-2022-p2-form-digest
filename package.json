@@ -1,0 +1,23 @@
+{
+  "name": "aspiring-devs-p2",
+  "version": "1.0.0",
+  "description": "Second project for Aspiring Devs",
+  "main": "DO_NOT_TOUCH/bootstrap.js",
+  "scripts": {
+    "test": "npm run test",
+    "server": "node 'DO_NOT_TOUCH/bootstrap.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojsung/aspiring-devs-p2.git"
+  },
+  "author": "ojsung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojsung/aspiring-devs-p2/issues"
+  },
+  "homepage": "https://github.com/ojsung/aspiring-devs-p2#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2"
+  }
+}
