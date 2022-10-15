@@ -1,8 +1,7 @@
 const port = 9219
 /**
  * 
- * For this class, feel free to install any package to handle making requests.  Axios is nice, as well as node_fetch.
- * or if you're a real yippee zonkers ranger, you can also use NodeJS's built-in `http` package (don't actually do this)
+ * For this class, Axios has been provided. Feel free to use window.fetch too if you prefer.
  * 
  * The base URL has been provided to you (#baseUrl).  All other urls should build from it
  * - ex. if your endpoint was /hello_world, you would use `const storyUrl = this.#baseUrl + '/hello_world'` 
@@ -66,19 +65,19 @@ const port = 9219
 
 class HttpService {
     #baseUrl = `http://localhost:${port}`
-    get() {
+    async get() {
         throw new ReferenceError("NOT IMPLEMENTED")
     }
     
-    post() {
+    async post() {
         throw new ReferenceError("NOT IMPLEMENTED")
     }
     
-    put() {
+    async put() {
         throw new ReferenceError("NOT IMPLEMENTED")
     }
     
-    delete() {
+    async delete() {
         throw new ReferenceError("NOT IMPLEMENTED")
     }
 }
