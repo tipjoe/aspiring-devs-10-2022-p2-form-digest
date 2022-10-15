@@ -1,5 +1,4 @@
-const port = require('../../DO_NOT_TOUCH/server').port || 9219
-
+const port = 9219
 /**
  * 
  * For this class, feel free to install any package to handle making requests.  Axios is nice, as well as node_fetch.
@@ -84,4 +83,4 @@ class HttpService {
     }
 }
 
-module.exports = HttpService
+window.httpService = HttpService
