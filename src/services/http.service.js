@@ -66,19 +66,19 @@ const port = 9219
 class HttpService {
     #baseUrl = `http://localhost:${port}`
     async get() {
-        throw new ReferenceError("NOT IMPLEMENTED")
+        throw new Error("NOT IMPLEMENTED")
     }
     
     async post() {
-        throw new ReferenceError("NOT IMPLEMENTED")
+        throw new Error("NOT IMPLEMENTED")
     }
     
     async put() {
-        throw new ReferenceError("NOT IMPLEMENTED")
+        throw new Error("NOT IMPLEMENTED")
     }
     
     async delete() {
-        throw new ReferenceError("NOT IMPLEMENTED")
+        throw new Error("NOT IMPLEMENTED")
     }
 }
 

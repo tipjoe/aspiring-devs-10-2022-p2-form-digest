@@ -1,11 +1,12 @@
 {
   "name": "aspiring-devs-p2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Second project for Aspiring Devs",
   "main": "DO_NOT_TOUCH/bootstrap.js",
   "scripts": {
     "test": "npm run test",
-    "server": "node 'DO_NOT_TOUCH/bootstrap.js'"
+    "server": "node 'DO_NOT_TOUCH/bootstrap.js'",
+    "serve": "npx http-server ./ --port=9218 --cors -o src/App.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/ojsung/aspiring-devs-p2#readme",
   "dependencies": {
-    "better-sqlite3": "^7.6.2"
+    "better-sqlite3": "^7.6.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-server": "^14.1.1"
   }
 }
