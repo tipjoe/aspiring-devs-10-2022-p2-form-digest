@@ -9,6 +9,8 @@ const port = 9219
  * There are two endpoints:
  *  - /story
  *  - /user_stories
+ *    - The /user_stories endpoint is optional
+ *    - It is here if you want more practice
  *  
  *  For these two endpoints, 
  *  /story accepts GET, PUT, POST, and DELETE requests
@@ -34,11 +36,11 @@ const port = 9219
 ```
   {
     "story_title": "the title of your story",
-    "story_content": "your actual story. it should have a beginning, a middle, and end. maybe some plot. try to write a few thousand words. or pages.  it's up to you and your creativity. maybe this is the moment you discover that software isn't for you, and you were born to be a writer."
+    "story_content": "your actual story. it should have a beginning, a middle, and end. maybe some plot. try to write a few dozen words. or pages.  it's up to you and your creativity. maybe this is the moment you discover that software isn't for you, and you were born to be a writer."
   }
 ```
- *  - To ensure the story is attributed to the correct author, this endpoint and method requires an authentication header.
- *     - For simplicity's sake, the authentication header value is just "username password".  
+ *  - To ensure the story is attributed to the correct author, this endpoint and method requires an authorization header.
+ *     - For simplicity's sake, the authorization header value is just "username password".  
  *     - There is a test user seeded to the database.  You can use this test user for this method.
  *         - username: `test-user`
  *         - password: `test`
@@ -46,13 +48,13 @@ const port = 9219
  * #### PUT /story/$storyId
  * To UPDATE an existing story in the database, a put request can be sent to the /story endpoint.
  *  - The body of the request should be the same at POST /story
- *  - An authentication header is also required for this endpoint, same as POST.
+ *  - An authorization header is also required for this endpoint, same as POST.
  * - Again, when providinig the `storyId` don't include the `$`
  *  
  * #### DELETE /story/$storyId
  * To DELETE an existing story in the database, a DELETE request can be sent to the /story/$storyId endpoint.
  *  - There is no body for this endpoint
- *  - An authentication header is required
+ *  - An authorization header is required
  * 
  * ### The `/user_stories/$username` Endpoint
  * This is an optional endpoint that you can implement if you'd like more practice.  Again, it is not expected that you implement this endpoint.  It's only here for additional practice if you want it.
