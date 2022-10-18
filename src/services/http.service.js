@@ -11,7 +11,7 @@ const port = 9219
  *  - /user_stories
  *  
  *  For these two endpoints, 
- *  /story accepts GET and POST requests
+ *  /story accepts GET, PUT, POST, and DELETE requests
  *  /user_stories accepts GET requests
  * 
  * ## Endpoints:
@@ -53,7 +53,6 @@ const port = 9219
  * To DELETE an existing story in the database, a DELETE request can be sent to the /story/$storyId endpoint.
  *  - There is no body for this endpoint
  *  - An authentication header is required
- *  - Are you sure you want to delete this story? (y/N)
  * 
  * ### The `/user_stories/$username` Endpoint
  * This is an optional endpoint that you can implement if you'd like more practice.  Again, it is not expected that you implement this endpoint.  It's only here for additional practice if you want it.
