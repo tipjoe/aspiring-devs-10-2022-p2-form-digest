@@ -5,7 +5,7 @@
   "main": "DO_NOT_TOUCH/bootstrap.js",
   "scripts": {
     "test": "npm run test",
-    "server": "node 'DO_NOT_TOUCH/bootstrap.js'",
+    "server": "node DO_NOT_TOUCH/bootstrap.js",
     "serve": "npx http-server ./ --port=9218 --cors -c-1 -o src/App.html"
   },
   "repository": {
