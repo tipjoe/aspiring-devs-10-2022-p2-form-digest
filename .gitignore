@@ -50,6 +50,12 @@ typings/
 # Optional npm cache directory
 .npm
 
+# Removing the package lock for people on different versions of npm
+package-lock.json
+
+# db file - let's never push this
+마라탕.db
+
 # Optional eslint cache
 .eslintcache
 

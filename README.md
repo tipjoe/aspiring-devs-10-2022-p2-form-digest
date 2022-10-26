@@ -14,5 +14,7 @@ To get started,
 2. Open up `src/App.html` which has been provided to you in this project.  Follow the instructions contained there to install NodeJS and a code editor.
 3. Once NodeJS has been installed, run `npm run server` in the `aspiring-devs-p2` folder.
    - This will start the server that you will interact with to make and retrieve stories
-4. Take a look at `src/services/http.service.js`.  This folder contains information about the server and how to interact with data through it.
-5. The rest is up to you.  Good luck. We're excited to see what you create.
+4. Open a new command prompt or terminal and run `npm run serve`, still in the `aspiring-devs-p2` folder
+   - This will open up the same webpage you were looking at before, but it will now be a "hosted" version
+5. Take a look at `src/services/http.service.js`.  This folder contains information about the server and how to interact with data through it.
+6. The rest is up to you.  Good luck. We're excited to see what you create.
