@@ -6,10 +6,10 @@
       src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
     ></script>
     <script type="text/javascript" src="services/http.service.js"></script>
-    <script type="text/javascript" src="index.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -28,32 +28,32 @@
       href="../favicon-16x16.png"
     />
     <link rel="manifest" href="../site.webmanifest" />
-    <title>First Project</title>
+    <title>Wait for it...</title>
   </head>
   <!-- Don't worry about anything above this line -->
-  <body>
+  <body style="text-align: center;">
     <!-- Replace everything in here -->
     <div class="application-body">
-      <h1>Getting Started on Project 2!</h1>
-      <div>
-        <ul>
-          <li>Make sure you have your code from Project 1 open</li>
-          <li>
-            Download NodeJS <a href="https://nodejs.org/en/">using this link</a>
-            <ul>
-              <li>Download the "LTS" version (16.18.0 as of 2022-10-18)</li>
-            </ul>
-          </li>
-          <li>Inside of the "aspiring-devs-p2" folder, run "npm install"</li>
-        </ul>
-        <span
-          >Using the UI you developed in project 1, your task is now to request
-          data from a backend server and display it on the front-end. Take a
-          look at src/services/http.service.js for more info!
-        </span>
-        
+      <h1>Web Forms are Just An HTML Digestive System</h1>
+      <p style="font-size: 2rem;">Feed something to the input box and click "Digest" to poop it out.</p>
+      <div style="margin-bottom: 20px;">
+        <form id="digest">
+          <input type="text" id="food">
+          <!-- Use a submit (button) instead of a button so the user can hit enter to submit the input. -->
+          <input type="submit" value="Digest">
+        </form>
+      </div>
+      <!-- Place to poop out what we feed our input form. -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcnupsE998Lq573Bh_tgfsIuu3f9XcQEkDdm_smFSPMQXp8RnvEbgHGpu5jd7dsz5ZFVw&usqp=CAU">
+      <div id="toilet" class="hidden"></div>
+      <div id="flush-warning" class="hidden">
+        DANGER! This toilet's getting clogged. You better flush soon!!!!
+        <br><br>
+        <input type="button" id="flush" value="FLUSH ME PLEASE!!!">
       </div>
     </div>
+
+    <script type="text/javascript" src="index.js"></script>
     <!-- Don't delete below this line -->
   </body>
 </html>
