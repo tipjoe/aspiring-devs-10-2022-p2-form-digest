@@ -12,6 +12,21 @@
 
 This repo demonstrates this using only the most professional standards.
 
+# How to Fork This Repo
+With github, you have two choices for adding a repository to your local computer.
+
+1. Clone - Use `git clone [repo url]` when you want to load it, make changes,
+the  push your changes back to the original repo. This is usually how you work
+at when your job is to work on code in company repositories.
+
+2. Fork - Use this option to copy a repository into your own github account.
+Now you "own" it and can push your local changes back to github without needing
+permission from someone else.
+
+Fork this repo by clicking the `Fork` button on the top-right of
+[this web page](https://github.com/tipjoe/aspiring-devs-10-2022-p2-form-digest).
+
+
 # The Files
 
 ## App.html (HTML is the bones - the structure/shape of the web page)
@@ -46,6 +61,6 @@ Javascript) happening in the browser. It includes other code to run a "back-end"
 server.
 
 # Original README
-This was forked from Winter's (project here)[https://github.com/tipjoe/aspiring-devs-10-2022-p2-form-digest.git].
+This was forked from Winter's [project here](https://github.com/tipjoe/aspiring-devs-10-2022-p2-form-digest.git).
 
 See the README in that repo for other instructions.
