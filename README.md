@@ -12,7 +12,7 @@
 
 This repo demonstrates this using only the most professional standards.
 
-# How to Fork This Repo
+# How to Try this Repo
 With github, you have two choices for adding a repository to your local computer.
 
 1. Clone - Use `git clone [repo url]` when you want to load it, make changes,
@@ -26,6 +26,17 @@ permission from someone else.
 Fork this repo by clicking the `Fork` button on the top-right of
 [this web page](https://github.com/tipjoe/aspiring-devs-10-2022-p2-form-digest).
 
+Once it's on your computer:
+
+1. In the `aspiring-devs-p2` folder, run `npm i` (i is short for install).
+
+2. Now run `npm run serve`. This starts the web server and should pop open
+the page in your browser and/or indicate the URL to open (something like
+`Open: http://127.0.0.1:9218/src/App.html`).
+
+`npm run ______` runs scripts defined in the `package.json` file. Open in to
+see that a `serve` script is defined. When you ran `npm run serve`, this is
+what it ran. 
 
 # The Files
 
